@@ -9,7 +9,7 @@
 <body>
 <h2>Reactive的demo</h2>
 <p>
-    <input id="t" value="1"/> + 1 +
+    <input id="t" value="1"/>
     <input id="t2" value="2"> =
     <span id="result"></span>
 </p>
@@ -66,14 +66,6 @@
 
         var resultProperty = tProperty.combine(t2Property).map(function (args) {
             return parseInt(args[0]) + parseInt(args[1]);
-        }).map(function(v){
-            // emulate server validation
-            return reactive.createEventStream(function(fire){
-                setTimeout(function(){
-                    fire(v+1);
-                    fire(reactive.END);
-                },100);
-            });
         });
 
         resultProperty.onValue(function (v) {

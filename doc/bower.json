@@ -1,0 +1,10 @@
+{
+    "name": "reactive",
+    "ignore": [
+        "**/*",
+        "!index.js",
+        "!lib/**/*"
+     ],
+    "dependencies": {
+    }
+}

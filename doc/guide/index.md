@@ -28,7 +28,9 @@ EventStream.prototype.startsWith
 EventStream.prototype.combine
 
 ## demo
-http://gallery.kissyui.com/reactive/doc/demo/index.html
+calculator: http://gallery.kissyui.com/reactive/doc/demo/index.html
+
+autocomplete: http://gallery.kissyui.com/reactive/doc/demo/autocomplete.html
 
 ## test case
 http://gallery.kissyui.com/reactive/doc/test/runner.html

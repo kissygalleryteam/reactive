@@ -1,20 +1,20 @@
-Ô­ÎÄµØÖ·: http://blog.kissyui.com/2014/08/07/functional-reactive-programming/
+åŸæ–‡åœ°å€: http://blog.kissyui.com/2014/08/07/functional-reactive-programming/
 
-[function reactive programming](http://en.wikipedia.org/wiki/Functional_reactive_programming) (frp) ÊÇÒ»ÖÖº¯ÊıÊ½ÓïÑÔµÄ±à³Ì·¶Ê½£¬Í¨¹ıÏìÓ¦Ê½µÄ±à³Ì¿ÉÒÔ¹¹½¨³öÊÂ¼şÁ÷£¬ÊÂ¼şÁ÷¿ÉÒÔÔÙÍ¨¹ıº¯ÊıÊ½µÄ×ª»»/¹ıÂË/**×éºÏ**£¬×îÖÕĞÎ³É¿ÉÓÃµÄ½á¹û¡£Í¬ promise ÀàËÆ¿ÉÒÔÓĞĞ§µÃÏû³ıÒì²½µ÷ÓÃ³¡¾°ÏÂµÄÇ¶Ì×»Øµ÷¡£ºÍ promise ²àÖØÓÚÒ»´ÎĞÔµÄ³É¹¦/Ê§°Ü²»Í¬£¬frp Ôò²àÖØÓÚÀëÉ¢µÄÔ´Ô´²»¶ÏµÄÊÂ¼şÁ÷¡£
+[function reactive programming](http://en.wikipedia.org/wiki/Functional_reactive_programming) (frp) æ˜¯ä¸€ç§å‡½æ•°å¼è¯­è¨€çš„ç¼–ç¨‹èŒƒå¼ï¼Œé€šè¿‡å“åº”å¼çš„ç¼–ç¨‹å¯ä»¥æ„å»ºå‡ºäº‹ä»¶æµï¼Œäº‹ä»¶æµå¯ä»¥å†é€šè¿‡å‡½æ•°å¼çš„è½¬æ¢/è¿‡æ»¤/**ç»„åˆ**ï¼Œæœ€ç»ˆå½¢æˆå¯ç”¨çš„ç»“æœã€‚åŒ promise ç±»ä¼¼å¯ä»¥æœ‰æ•ˆå¾—æ¶ˆé™¤å¼‚æ­¥è°ƒç”¨åœºæ™¯ä¸‹çš„åµŒå¥—å›è°ƒã€‚å’Œ promise ä¾§é‡äºä¸€æ¬¡æ€§çš„æˆåŠŸ/å¤±è´¥ä¸åŒï¼Œfrp åˆ™ä¾§é‡äºç¦»æ•£çš„æºæºä¸æ–­çš„äº‹ä»¶æµã€‚
 
-frp ¸ù¾İ¸ÅÄîºÍÊµÏÖµÄ²î±ğ²¢Ã»ÓĞÒ»ÖÂµÄÔ¼¶¨£¬ÕâÀï½éÉÜ kissy frp µÄ api ¼°ÆäÓÃ·¨£¬ÏêÏ¸µÄ¸ÅÄî½éÉÜ²Î¼û£º[The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754).
+frp æ ¹æ®æ¦‚å¿µå’Œå®ç°çš„å·®åˆ«å¹¶æ²¡æœ‰ä¸€è‡´çš„çº¦å®šï¼Œè¿™é‡Œä»‹ç» kissy frp çš„ api åŠå…¶ç”¨æ³•ï¼Œè¯¦ç»†çš„æ¦‚å¿µä»‹ç»å‚è§ï¼š[The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754).
 
 ## api
 
-### Àà
+### ç±»
 
-EventStream ÊÂ¼şÁ÷Àà
+EventStream äº‹ä»¶æµç±»
 
-Property ÊôĞÔÀà£¬¼Ì³ĞÓÚÊÂ¼şÁ÷Àà
+Property å±æ€§ç±»ï¼Œç»§æ‰¿äºäº‹ä»¶æµç±»
 
-### ¹¹½¨·½·¨
+### æ„å»ºæ–¹æ³•
 
-createEventStream: ¹¹½¨Ò»¸öÊÂ¼şÁ÷ (EventStream)£¬È»ºó¿ÉÒÔÍùÊÂ¼şÁ÷ÖĞÌí¼ÓÖµ£¬ÀıÈç
+createEventStream: æ„å»ºä¸€ä¸ªäº‹ä»¶æµ (EventStream)ï¼Œç„¶åå¯ä»¥å¾€äº‹ä»¶æµä¸­æ·»åŠ å€¼ï¼Œä¾‹å¦‚
 
 ``` javascript
 reactive.createEventStream(function(fire){
@@ -22,19 +22,19 @@ reactive.createEventStream(function(fire){
 });
 ```
 
-createProperty: ¹¹½¨Ò»¸öÊôĞÔ (Property)£¬ÊôĞÔºÍÊÂ¼şµÄÇø±ğÔÚÓÚºóÃæ onValue µÄ´¦Àí²»Í¬.
+createProperty: æ„å»ºä¸€ä¸ªå±æ€§ (Property)ï¼Œå±æ€§å’Œäº‹ä»¶çš„åŒºåˆ«åœ¨äºåé¢ onValue çš„å¤„ç†ä¸åŒ.
 
-### ÊµÀı·½·¨
+### å®ä¾‹æ–¹æ³•
 
-EventStream.prototype.onValue ¼àÌıÊÂ¼şÁ÷ËùÌí¼ÓµÄÖµ
+EventStream.prototype.onValue ç›‘å¬äº‹ä»¶æµæ‰€æ·»åŠ çš„å€¼
 
-Property.prototype.onValue ¼àÌıÊôĞÔµÄ×î½üÒ»¸öÖµ£¬ºÍ EventStream µÄÇø±ğµãÔÚÓÚÈç¹ûÏÈÔÚÊÂ¼şÁ÷ÖĞÌí¼ÓÖµÈ»ºóÔÙ¼àÌı£¬ÊÂ¼şÁ÷ÖĞµÄÖµ»á¼àÌı²»µ½£¨ÒÑ¾­´¥·¢£©¡£¶ø property »á»º´æ×î½üµÄÖµ£¬ÔÚ onValue »áÈ¡³öÀ´»º´æµÄÖµ¡£
+Property.prototype.onValue ç›‘å¬å±æ€§çš„æœ€è¿‘ä¸€ä¸ªå€¼ï¼Œå’Œ EventStream çš„åŒºåˆ«ç‚¹åœ¨äºå¦‚æœå…ˆåœ¨äº‹ä»¶æµä¸­æ·»åŠ å€¼ç„¶åå†ç›‘å¬ï¼Œäº‹ä»¶æµä¸­çš„å€¼ä¼šç›‘å¬ä¸åˆ°ï¼ˆå·²ç»è§¦å‘ï¼‰ã€‚è€Œ property ä¼šç¼“å­˜æœ€è¿‘çš„å€¼ï¼Œåœ¨ onValue ä¼šå–å‡ºæ¥ç¼“å­˜çš„å€¼ã€‚
 
-EventStream.prototype.startsWith ÉèÖÃÊÂ¼şÁ÷µÄ³õÊ¼Öµ, ÔÚ onValue Ê±Á¢¼´È¡³öÀ´Ê¹ÓÃ
+EventStream.prototype.startsWith è®¾ç½®äº‹ä»¶æµçš„åˆå§‹å€¼, åœ¨ onValue æ—¶ç«‹å³å–å‡ºæ¥ä½¿ç”¨
 
-### º¯ÊıÊ½·½·¨
+### å‡½æ•°å¼æ–¹æ³•
 
-EventStream.prototype.combine ½«¶à¸öÁ÷×éºÏÎªÒ»¸öÁ÷£¬Õâ¸öÁ÷µÄÊÂ¼şÖµÎª¶à¸öÁ÷ÊÂ¼şÖµµÄ×éºÏ£¬ÀıÈç
+EventStream.prototype.combine å°†å¤šä¸ªæµç»„åˆä¸ºä¸€ä¸ªæµï¼Œè¿™ä¸ªæµçš„äº‹ä»¶å€¼ä¸ºå¤šä¸ªæµäº‹ä»¶å€¼çš„ç»„åˆï¼Œä¾‹å¦‚
 
 ```javascript
 stream1 = reactive.createEventStream(function(fire){
@@ -49,7 +49,7 @@ stream3.onValue(function(v){
 });
 ```
 
-EventStream.prototype.filter ·µ»ØÒ»¸öĞÂµÄÊÂ¼şÁ÷£¬¸ÃÊÂ¼şÁ÷Ö»ÓĞÔÚµ±Ç°ÊÂ¼şÁ÷µÄÖµÍ¨¹ı¹ıÂËÊ±²ÅÌí¼ÓÖµ£¬ÀıÈç
+EventStream.prototype.filter è¿”å›ä¸€ä¸ªæ–°çš„äº‹ä»¶æµï¼Œè¯¥äº‹ä»¶æµåªæœ‰åœ¨å½“å‰äº‹ä»¶æµçš„å€¼é€šè¿‡è¿‡æ»¤æ—¶æ‰æ·»åŠ å€¼ï¼Œä¾‹å¦‚
 
 ```javascript
 stream2 = stream1.filter(function(v){
@@ -57,9 +57,9 @@ stream2 = stream1.filter(function(v){
 });
 ```
 
-EventStream.prototype.map ·µ»ØÒ»¸öĞÂµÄÊÂ¼şÁ÷£¬¸ÃÊÂ¼şÁ÷ÊÇ¶Ôµ±Ç°ÊÂ¼şÁ÷×ª»»µÄ½á¹û£¬½á¹û¿ÉÒÔÓÖÊÇÒ»¸öÊÂ¼şÁ÷£¬¼´ĞÎ³ÉÒ»ÖÖÎ¯ÍĞµÄ¹ØÏµ¡£
+EventStream.prototype.map è¿”å›ä¸€ä¸ªæ–°çš„äº‹ä»¶æµï¼Œè¯¥äº‹ä»¶æµæ˜¯å¯¹å½“å‰äº‹ä»¶æµè½¬æ¢çš„ç»“æœï¼Œç»“æœå¯ä»¥åˆæ˜¯ä¸€ä¸ªäº‹ä»¶æµï¼Œå³å½¢æˆä¸€ç§å§”æ‰˜çš„å…³ç³»ã€‚
 
-ÀıÈç¼òµ¥µÄ×ª»»
+ä¾‹å¦‚ç®€å•çš„è½¬æ¢
 
 ```javascript
 stream2 = stream1.map(function(v){
@@ -67,7 +67,7 @@ stream2 = stream1.map(function(v){
 });
 ```
 
-»òÕßÇ¶Ì×µÄ×ª»»£¬ĞÂµÄÊÂ¼şÁ÷µÄÖµÓÖÊÇÓÉÁíÒ»¸öÊÂ¼şÁ÷²úÉú£¬³£ÓÃÓÚÒì²½µÄ³¡¾°
+æˆ–è€…åµŒå¥—çš„è½¬æ¢ï¼Œæ–°çš„äº‹ä»¶æµçš„å€¼åˆæ˜¯ç”±å¦ä¸€ä¸ªäº‹ä»¶æµäº§ç”Ÿï¼Œå¸¸ç”¨äºå¼‚æ­¥çš„åœºæ™¯
 
 ```javascript
 stream2 = stream1.map(function(v){
@@ -81,28 +81,28 @@ stream2 = stream1.map(function(v){
 
 ## example
 
-api ºÜÉÙ£¬ÓÃÆğÀ´Ò²ºÜ¼òµ¥£¬ÕâÀï¾ÙÁ½¸ö¼òµ¥µÄÀı×ÓËµÃ÷ÏÂ£º
+api å¾ˆå°‘ï¼Œç”¨èµ·æ¥ä¹Ÿå¾ˆç®€å•ï¼Œè¿™é‡Œä¸¾ä¸¤ä¸ªç®€å•çš„ä¾‹å­è¯´æ˜ä¸‹ï¼š
 
-#### ×Ô¶¯²¹È«
+#### è‡ªåŠ¨è¡¥å…¨
 
-[demo](http://gallery.kissyui.com/reactive/doc/demo/autocomplete.html), ×Ô¶¯²¹È«ÊÇÒ»¸ö frp ºÏÊÊ¶øÇÒ¼òµ¥µÄÓ¦ÓÃ³¡¾°£¬ ³õÊ¼ÊÂ¼şÁ÷¾ÍÊÇÓÃ»§¶ÔÓÚµ¥¸ö input µÄÊäÈë£¬¸ÃÊÂ¼şÁ÷¾­¹ı¼òµ¥µÄ¹ıÂË£¨·Ç¿Õ£©£¬×ª»»Îª¶ÔÓÚ·şÎñÆ÷ÇëÇóµÄÊÂ¼şÁ÷£¬×îÖÕ·şÎñÆ÷·µ»ØºóµÄÖµ×÷Îª½á¹ûäÖÈ¾¡£Ê¾Àı´úÂëÈçÏÂ£º
+[demo](http://gallery.kissyui.com/reactive/doc/demo/autocomplete.html), è‡ªåŠ¨è¡¥å…¨æ˜¯ä¸€ä¸ª frp åˆé€‚è€Œä¸”ç®€å•çš„åº”ç”¨åœºæ™¯ï¼Œ åˆå§‹äº‹ä»¶æµå°±æ˜¯ç”¨æˆ·å¯¹äºå•ä¸ª input çš„è¾“å…¥ï¼Œè¯¥äº‹ä»¶æµç»è¿‡ç®€å•çš„è¿‡æ»¤ï¼ˆéç©ºï¼‰ï¼Œè½¬æ¢ä¸ºå¯¹äºæœåŠ¡å™¨è¯·æ±‚çš„äº‹ä»¶æµï¼Œæœ€ç»ˆæœåŠ¡å™¨è¿”å›åçš„å€¼ä½œä¸ºç»“æœæ¸²æŸ“ã€‚ç¤ºä¾‹ä»£ç å¦‚ä¸‹ï¼š
 
 ``` javascript
-// ³õÊ¼ÊÂ¼şÁ÷
+// åˆå§‹äº‹ä»¶æµ
 reactive.createEventStream(function(fire){
    input[0].oninput = function () {
      fire(this.value);
    };
 })
-// ¹ıÂË
+// è¿‡æ»¤
 .filter(function(v){
   return !!v.trim();
 })
-// È¥¿Õ¸ñ
+// å»ç©ºæ ¼
 .map(function(v){
   return v.trim();
 })
-// ×ª»¯Îª·şÎñÆ÷ÇëÇóÁ÷
+// è½¬åŒ–ä¸ºæœåŠ¡å™¨è¯·æ±‚æµ
 .map(function(v){
   return reactive.createEventStream(function(fire){
     io.jsonp('xx.json',{q:v},function(data){
@@ -110,45 +110,45 @@ reactive.createEventStream(function(fire){
     });
   });
 })
-// »ñÈ¡×îÖÕÖµ
+// è·å–æœ€ç»ˆå€¼
 .onValue(function(data){
    // render data
 });
 ```
 
-´ó¼Ò¿ÉÒÔÏëÏÂÒÔÇ°ÓÃ»Øµ÷ÊÇÈç¹ûÊµÏÖµÄ£¬¶ø frp ÔòÓĞĞ§µÃÊ¹ÓÃ×éºÏÌæ´úÁËÇ¶Ì×»Øµ÷¡£
+å¤§å®¶å¯ä»¥æƒ³ä¸‹ä»¥å‰ç”¨å›è°ƒæ˜¯å¦‚æœå®ç°çš„ï¼Œè€Œ frp åˆ™æœ‰æ•ˆå¾—ä½¿ç”¨ç»„åˆæ›¿ä»£äº†åµŒå¥—å›è°ƒã€‚
 
-#### ¼ÆËãÆ÷
+#### è®¡ç®—å™¨
 
-[demo](http://gallery.kissyui.com/reactive/doc/demo/index.html) £¬¼ÆËãÆ÷ÔòÑİÊ¾ÁË¶à¸öÊÂ¼şÁ÷µÄ×éºÏĞÔ£¬ÓÃ»§ÔÚÃ¿¸öÊäÈë¿òµÄÊäÈë¶¼ĞÎ³ÉÁËÒ»¸öÊÂ¼şÁ÷£¬¶ø¶à¸öÊÂ¼şÁ÷×éºÏµÄ½á¹û¾­¹ı¼ÆËãĞÎ³ÉÁË×îÖÕµÄ¼ÆËã½á¹û¡£Ê¾Àı´úÂëÈçÏÂ
+[demo](http://gallery.kissyui.com/reactive/doc/demo/index.html) ï¼Œè®¡ç®—å™¨åˆ™æ¼”ç¤ºäº†å¤šä¸ªäº‹ä»¶æµçš„ç»„åˆæ€§ï¼Œç”¨æˆ·åœ¨æ¯ä¸ªè¾“å…¥æ¡†çš„è¾“å…¥éƒ½å½¢æˆäº†ä¸€ä¸ªäº‹ä»¶æµï¼Œè€Œå¤šä¸ªäº‹ä»¶æµç»„åˆçš„ç»“æœç»è¿‡è®¡ç®—å½¢æˆäº†æœ€ç»ˆçš„è®¡ç®—ç»“æœã€‚ç¤ºä¾‹ä»£ç å¦‚ä¸‹
 
 ``` javascript
-// ÊÂ¼şÁ÷1
+// äº‹ä»¶æµ1
 reactive.createEventStream(function(fire){
    input1.oninput = function () {
      fire(this.value);
    };
 })
-// ×éºÏÊÂ¼şÁ÷2
+// ç»„åˆäº‹ä»¶æµ2
 .combine(reactive.createEventStream(function(fire){
    input2.oninput = function () {
      fire(this.value);
    };
 }))
-// ×ª»»½á¹û
+// è½¬æ¢ç»“æœ
 .map(function(v){
   return v[0]+v[1];
 })
-// äÖÈ¾×îÖÕÖµ
+// æ¸²æŸ“æœ€ç»ˆå€¼
 .onValue(function(v){
 });
 ```
 
-## ÏÖÔÚ¾ÍÊ¹ÓÃ
+## ç°åœ¨å°±ä½¿ç”¨
 
-ÔÚ kissy ÖĞ¿ÉÒÔÍ¨¹ıÅäÖÃ [gallery](http://gallery.kissyui.com/reactive/doc/guide/index.html) °ü kg Îª http://g.tbcdn.cn/kg/ È»ºó use('kg/reactive/0.2.0/') ¼´¿É¡£
+åœ¨ kissy ä¸­å¯ä»¥é€šè¿‡é…ç½® [gallery](http://gallery.kissyui.com/reactive/doc/guide/index.html) åŒ… kg ä¸º http://g.tbcdn.cn/kg/ ç„¶å use('kg/reactive/0.2.0/') å³å¯ã€‚
 
-gallery ×é¼şÏÖÔÚÒ²¿ÉÒÔÊ¹ÓÃ bower °²×°µ½±¾µØ£¨¹«Ë¾ÄÚ²¿£©£¬ÅäÖÃ .bowerrc Îª 
+gallery ç»„ä»¶ç°åœ¨ä¹Ÿå¯ä»¥ä½¿ç”¨ bower å®‰è£…åˆ°æœ¬åœ°ï¼ˆå…¬å¸å†…éƒ¨ï¼‰ï¼Œé…ç½® .bowerrc ä¸º 
 
 ```javascript
 {
@@ -156,7 +156,7 @@ gallery ×é¼şÏÖÔÚÒ²¿ÉÒÔÊ¹ÓÃ bower °²×°µ½±¾µØ£¨¹«Ë¾ÄÚ²¿£©£¬ÅäÖÃ .bowerrc Îª
 }
 ```
 
-Ìí¼Ó bower.json
+æ·»åŠ  bower.json
 
 ```javascript
 {
@@ -168,4 +168,4 @@ gallery ×é¼şÏÖÔÚÒ²¿ÉÒÔÊ¹ÓÃ bower °²×°µ½±¾µØ£¨¹«Ë¾ÄÚ²¿£©£¬ÅäÖÃ .bowerrc Îª
 }
 ```
 
-ÔÚ¸ùÄ¿Â¼Ö´ĞĞ bower  install ¼´¿É°²×°×é¼şµ½±¾µØ bower_components Ä¿Â¼£¬Ä¿Â¼¿ÉÒÔÍ¨¹ıÔÚ .bowerrc ÖĞÅäÖÃ directory ¸Ä±ä£¬Ïê¼û£º [bower ÎÄµµ](http://bower.io/docs/config/)
+åœ¨æ ¹ç›®å½•æ‰§è¡Œ bower  install å³å¯å®‰è£…ç»„ä»¶åˆ°æœ¬åœ° bower_components ç›®å½•ï¼Œç›®å½•å¯ä»¥é€šè¿‡åœ¨ .bowerrc ä¸­é…ç½® directory æ”¹å˜ï¼Œè¯¦è§ï¼š [bower æ–‡æ¡£](http://bower.io/docs/config/)

@@ -4,6 +4,7 @@
 
 frp 根据概念和实现的差别并没有一致的约定，这里介绍 kissy frp 的 api 及其用法，详细的概念介绍参见：[The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754).
 
+
 ## api
 
 ### 类

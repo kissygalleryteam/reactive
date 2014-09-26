@@ -1,7 +1,7 @@
 /*
 combined files : 
 
-kg/reactive/0.2.0/index
+kg/reactive/0.2.1/index
 
 */
 /**
@@ -9,7 +9,7 @@ kg/reactive/0.2.0/index
  * @author
  * @module reactive
  **/
-KISSY.add('kg/reactive/0.2.0/index',function (S) {
+KISSY.add('kg/reactive/0.2.1/index',function (S) {
     /**
  * Functional Reactive Programming
  * @author yiminghe@gmail.com

@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactEventEmitterMixin",["./EventPluginHub"],function(e,n,t){"use strict";function u(e){i.enqueueEvents(e),i.processEventQueue()}var i=e("./EventPluginHub"),v={handleTopLevel:function(e,n,t,v){var c=i.extractEvents(e,n,t,v);u(c)}};t.exports=v});

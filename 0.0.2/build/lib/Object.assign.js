@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/Object.assign",[],function(e,n,r){function t(e){if(null==e)throw new TypeError("Object.assign target cannot be null or undefined");for(var n=Object(e),r=Object.prototype.hasOwnProperty,t=1;t<arguments.length;t++){var a=arguments[t];if(null!=a){var o=Object(a);for(var c in o)r.call(o,c)&&(n[c]=o[c])}}return n}r.exports=t});

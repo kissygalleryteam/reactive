@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/SyntheticClipboardEvent",["./SyntheticEvent"],function(t,a,i){"use strict";function n(t,a,i){c.call(this,t,a,i)}var c=t("./SyntheticEvent"),e={clipboardData:function(t){return"clipboardData"in t?t.clipboardData:window.clipboardData}};c.augmentClass(n,e),i.exports=n});

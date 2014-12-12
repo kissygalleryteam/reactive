@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/hyphenateStyleName",["./hyphenate"],function(e,t,n){"use strict";function a(e){return r(e).replace(h,"-ms-")}var r=e("./hyphenate"),h=/^ms-/;n.exports=a});

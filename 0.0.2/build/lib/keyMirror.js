@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/keyMirror",["./invariant"],function(r,n,e){"use strict";var t=r("./invariant"),i=function(r){var n,e={};"production"!==process.env.NODE_ENV?t(r instanceof Object&&!Array.isArray(r),"keyMirror(...): Argument must be an object."):t(r instanceof Object&&!Array.isArray(r));for(n in r)r.hasOwnProperty(n)&&(e[n]=n);return e};e.exports=i});

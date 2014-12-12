@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/SyntheticFocusEvent",["./SyntheticUIEvent"],function(t,e,n){"use strict";function c(t,e,n){i.call(this,t,e,n)}var i=t("./SyntheticUIEvent"),a={relatedTarget:null};i.augmentClass(c,a),n.exports=c});

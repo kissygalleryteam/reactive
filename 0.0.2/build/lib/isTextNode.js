@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/isTextNode",["./isNode"],function(e,i,n){function o(e){return t(e)&&3==e.nodeType}var t=e("./isNode");n.exports=o});

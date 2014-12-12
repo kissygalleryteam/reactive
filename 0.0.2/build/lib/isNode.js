@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/isNode",[],function(e,o,n){function t(e){return!(!e||!("function"==typeof Node?e instanceof Node:"object"==typeof e&&"number"==typeof e.nodeType&&"string"==typeof e.nodeName))}n.exports=t});

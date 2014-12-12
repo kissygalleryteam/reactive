@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ExecutionEnvironment",[],function(e,n,t){"use strict";var i=!("undefined"==typeof window||!window.document||!window.document.createElement),o={canUseDOM:i,canUseWorkers:"undefined"!=typeof Worker,canUseEventListeners:i&&!(!window.addEventListener&&!window.attachEvent),canUseViewport:i&&!!window.screen,isInWorker:!i};t.exports=o});

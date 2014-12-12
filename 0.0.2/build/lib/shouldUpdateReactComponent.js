@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/shouldUpdateReactComponent",[],function(e,t,n){"use strict";function o(e,t){return e&&t&&e.type===t.type&&e.key===t.key&&e._owner===t._owner?!0:!1}n.exports=o});

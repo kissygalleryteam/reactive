@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/dangerousStyleValue",["./CSSProperty"],function(r,e,t){"use strict";function n(r,e){var t=null==e||"boolean"==typeof e||""===e;if(t)return"";var n=isNaN(e);return n||0===e||o.hasOwnProperty(r)&&o[r]?""+e:("string"==typeof e&&(e=e.trim()),e+"px")}var i=r("./CSSProperty"),o=i.isUnitlessNumber;t.exports=n});

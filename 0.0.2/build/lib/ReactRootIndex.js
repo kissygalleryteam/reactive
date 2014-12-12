@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactRootIndex",[],function(e,t,n){"use strict";var c={injectCreateReactRootIndex:function(e){o.createReactRootIndex=e}},o={createReactRootIndex:null,injection:c};n.exports=o});

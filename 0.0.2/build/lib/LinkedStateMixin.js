@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/LinkedStateMixin",["./ReactLink","./ReactStateSetters"],function(t,e,a){"use strict";var i=t("./ReactLink"),n=t("./ReactStateSetters"),r={linkState:function(t){return new i(this.state[t],n.createStateKeySetter(this,t))}};a.exports=r});

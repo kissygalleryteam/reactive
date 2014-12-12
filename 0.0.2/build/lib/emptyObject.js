@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/emptyObject",[],function(e,t,c){"use strict";var r={};"production"!==process.env.NODE_ENV&&Object.freeze(r),c.exports=r});

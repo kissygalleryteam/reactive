@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ClientReactRootIndex",[],function(e,t,n){"use strict";var c=0,o={createReactRootIndex:function(){return c++}};n.exports=o});

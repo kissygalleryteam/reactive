@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/onlyChild",["./ReactElement","./invariant"],function(e,n,i){"use strict";function t(e){return"production"!==process.env.NODE_ENV?a(l.isValidElement(e),"onlyChild must be passed a children with exactly one child."):a(l.isValidElement(e)),e}var l=e("./ReactElement"),a=e("./invariant");i.exports=t});

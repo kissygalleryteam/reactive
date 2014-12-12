@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/getTextContentAccessor",["./ExecutionEnvironment"],function(n,t,e){"use strict";function o(){return!i&&c.canUseDOM&&(i="textContent"in document.documentElement?"textContent":"innerText"),i}var c=n("./ExecutionEnvironment"),i=null;e.exports=o});

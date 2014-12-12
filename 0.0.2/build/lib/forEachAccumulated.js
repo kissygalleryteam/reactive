@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/forEachAccumulated",[],function(r,c,a){"use strict";var t=function(r,c,a){Array.isArray(r)?r.forEach(c,a):r&&c.call(a,r)};a.exports=t});

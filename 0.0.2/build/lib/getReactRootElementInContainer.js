@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/getReactRootElementInContainer",[],function(e,t,n){"use strict";function i(e){return e?e.nodeType===o?e.documentElement:e.firstChild:null}var o=9;n.exports=i});

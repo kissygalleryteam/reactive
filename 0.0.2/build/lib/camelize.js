@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/camelize",[],function(e,n,r){function t(e){return e.replace(c,function(e,n){return n.toUpperCase()})}var c=/-(.)/g;r.exports=t});

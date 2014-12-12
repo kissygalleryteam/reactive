@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ServerReactRootIndex",[],function(e,t,r){"use strict";var a=Math.pow(2,53),n={createReactRootIndex:function(){return Math.ceil(Math.random()*a)}};r.exports=n});

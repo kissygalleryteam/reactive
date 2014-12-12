@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/mapObject",[],function(r,t,e){"use strict";function n(r,t,e){if(!r)return null;var n={};for(var c in r)a.call(r,c)&&(n[c]=t.call(e,r[c],c,r));return n}var a=Object.prototype.hasOwnProperty;e.exports=n});

@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/performanceNow",["./performance"],function(e,r,n){var o=e("./performance");o&&o.now||(o=Date);var a=o.now.bind(o);n.exports=a});

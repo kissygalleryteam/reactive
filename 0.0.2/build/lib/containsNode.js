@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/containsNode",["./isTextNode"],function(o,n,e){function t(o,n){return o&&n?o===n?!0:i(o)?!1:i(n)?t(o,n.parentNode):o.contains?o.contains(n):o.compareDocumentPosition?!!(16&o.compareDocumentPosition(n)):!1:!1}var i=o("./isTextNode");e.exports=t});

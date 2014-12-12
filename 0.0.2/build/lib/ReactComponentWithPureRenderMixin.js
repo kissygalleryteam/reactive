@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactComponentWithPureRenderMixin",["./shallowEqual"],function(t,e,n){"use strict";var o=t("./shallowEqual"),i={shouldComponentUpdate:function(t,e){return!o(this.props,t)||!o(this.state,e)}};n.exports=i});

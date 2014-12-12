@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/escapeTextForBrowser",[],function(e,t,r){"use strict";function n(e){return o[e]}function c(e){return(""+e).replace(u,n)}var o={"&":"&amp;",">":"&gt;","<":"&lt;",'"':"&quot;","'":"&#x27;"},u=/[&><"']/g;r.exports=c});

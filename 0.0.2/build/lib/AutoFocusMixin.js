@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/AutoFocusMixin",["./focusNode"],function(o,t,e){"use strict";var i=o("./focusNode"),s={componentDidMount:function(){this.props.autoFocus&&i(this.getDOMNode())}};e.exports=s});

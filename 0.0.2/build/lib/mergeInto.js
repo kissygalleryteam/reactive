@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/mergeInto",["./Object.assign"],function(e,n,t){"use strict";var a=e("./Object.assign");t.exports=a,console.warn("react/lib/mergeInto has been deprecated and will be removed in the next version of React. All uses can be replaced with Object.assign(a, b, c, ...) or _.extend(a, b, c, ...).")});

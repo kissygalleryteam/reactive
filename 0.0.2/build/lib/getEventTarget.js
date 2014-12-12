@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/getEventTarget",[],function(e,t,n){"use strict";function r(e){var t=e.target||e.srcElement||window;return 3===t.nodeType?t.parentNode:t}n.exports=r});

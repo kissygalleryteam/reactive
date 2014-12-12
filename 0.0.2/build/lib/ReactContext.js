@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactContext",["./Object.assign"],function(t,r,e){"use strict";var n=t("./Object.assign"),c={current:{},withContext:function(t,r){var e,i=c.current;c.current=n({},i,t);try{e=r()}finally{c.current=i}return e}};e.exports=c});

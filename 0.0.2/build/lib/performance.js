@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/performance",["./ExecutionEnvironment"],function(e,n,r){"use strict";var o,i=e("./ExecutionEnvironment");i.canUseDOM&&(o=window.performance||window.msPerformance||window.webkitPerformance),r.exports=o||{}});

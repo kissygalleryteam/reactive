@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactMultiChildUpdateTypes",["./keyMirror"],function(l,e,r){"use strict";var i=l("./keyMirror"),t=i({INSERT_MARKUP:null,MOVE_EXISTING:null,REMOVE_NODE:null,TEXT_CONTENT:null});r.exports=t});

@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ViewportMetrics",["./getUnboundedScrollPosition"],function(r,e,o){"use strict";var t=r("./getUnboundedScrollPosition"),c={currentScrollLeft:0,currentScrollTop:0,refreshScrollValues:function(){var r=t(window);c.currentScrollLeft=r.x,c.currentScrollTop=r.y}};o.exports=c});

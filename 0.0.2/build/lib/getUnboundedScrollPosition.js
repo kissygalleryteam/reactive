@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/getUnboundedScrollPosition",[],function(e,o,t){"use strict";function n(e){return e===window?{x:window.pageXOffset||document.documentElement.scrollLeft,y:window.pageYOffset||document.documentElement.scrollTop}:{x:e.scrollLeft,y:e.scrollTop}}t.exports=n});

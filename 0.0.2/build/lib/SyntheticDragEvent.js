@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/SyntheticDragEvent",["./SyntheticMouseEvent"],function(t,e,n){"use strict";function a(t,e,n){i.call(this,t,e,n)}var i=t("./SyntheticMouseEvent"),s={dataTransfer:null};i.augmentClass(a,s),n.exports=a});

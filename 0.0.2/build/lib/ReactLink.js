@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/ReactLink",["./React"],function(e,i,n){"use strict";function r(e,i){this.value=e,this.requestChange=i}function t(e){var i={value:"undefined"==typeof e?s.PropTypes.any.isRequired:e.isRequired,requestChange:s.PropTypes.func.isRequired};return s.PropTypes.shape(i)}var s=e("./React");r.PropTypes={link:t},n.exports=r});

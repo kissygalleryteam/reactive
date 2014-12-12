@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/MobileSafariClickEventPlugin",["./EventConstants","./emptyFunction"],function(t,n,e){"use strict";var i=t("./EventConstants"),c=t("./emptyFunction"),o=i.topLevelTypes,a={eventTypes:null,extractEvents:function(t,n,e,i){if(t===o.topTouchStart){var a=i.target;a&&!a.onclick&&(a.onclick=c)}}};e.exports=a});

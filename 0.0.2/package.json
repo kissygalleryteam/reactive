@@ -1,0 +1,22 @@
+{
+  "name": "kg-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:kg/react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "~3.8.10",
+    "gulp-filter": "~1.0.2",
+    "gulp-kmc": "~1.0.26",
+    "gulp-minify": "0.0.5",
+    "react": "~0.12.1"
+  }
+}

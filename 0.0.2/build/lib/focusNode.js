@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/focusNode",[],function(c,t,e){"use strict";function o(c){try{c.focus()}catch(t){}}e.exports=o});

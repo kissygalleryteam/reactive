@@ -1,0 +1,1 @@
+define("kg/react/0.0.2/lib/getNodeForCharacterOffset",[],function(t,e,n){"use strict";function r(t){for(;t&&t.firstChild;)t=t.firstChild;return t}function i(t){for(;t;){if(t.nextSibling)return t.nextSibling;t=t.parentNode}}function f(t,e){for(var n=r(t),f=0,o=0;n;){if(3==n.nodeType){if(o=f+n.textContent.length,e>=f&&o>=e)return{node:n,offset:e-f};f=o}n=r(i(n))}}n.exports=f});
